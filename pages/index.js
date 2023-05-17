@@ -115,7 +115,7 @@ export default function Home() {
           <div className="row">
             {skills.map((skill) => {
               return (
-                <div className="col-md-2 text-center" key={skill.id}>
+                <div className="col-md-2 col-sm-4 col-6 text-center" key={skill.id}>
                   <Image
                     src={skill.src}
                     width={100}

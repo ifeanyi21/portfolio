@@ -6,7 +6,7 @@ const Socials = ({color, display}) => {
     <div className={`flex mb-8 ${display}`}>
       <a
         href="https://www.linkedin.com/in/ifeanyichukwu-eze-b93346214/"
-        className="mr-4"
+        className="mr-4 animate-wiggle"
         target="_blank"
         rel="noreferrer"
       >
@@ -14,7 +14,7 @@ const Socials = ({color, display}) => {
       </a>
       <a
         href="https://www.instagram.com/west___21/"
-        className="mx-4"
+        className="mx-4 animate-pulse"
         target="_blank"
         rel="noreferrer"
       >
@@ -22,7 +22,7 @@ const Socials = ({color, display}) => {
       </a>
       <a
         href="https://twitter.com/kamsey21"
-        className="mx-4"
+        className="mx-4 animate-wiggle"
         target="_blank"
         rel="noreferrer"
       >
