@@ -88,34 +88,34 @@ const Contact = () => {
                   <label className="font-medium mb-2">First name</label>
                   <input
                     type="text"
-                    className="w-full p-2 rounded-md focus:border-indigo-600 ring-1 ring-inset ring-gray-300 placeholder:text-gray-400 focus:ring-2 focus:ring-inset focus:ring-indigo-600 sm:text-sm sm:leading-6 border-0"
+                    className="w-full p-2 rounded-md border-indigo-600 sm:border-0 focus:border-indigo-600 ring-1 ring-inset ring-gray-300 placeholder:text-gray-400 focus:ring-2 focus:ring-inset focus:ring-indigo-600 sm:text-sm sm:leading-6 border-[1px]"
                   />
                 </div>
                 <div className="col-lg-6 mb-3">
                   <label className="font-medium mb-2">Last name</label>
                   <input
                     type="text"
-                    className="w-full p-2 rounded-md focus:border-indigo-600 ring-1 ring-inset ring-gray-300 placeholder:text-gray-400 focus:ring-2 focus:ring-inset focus:ring-indigo-600 sm:text-sm sm:leading-6 border-0"
+                    className="w-full p-2 rounded-md border-indigo-600 sm:border-0 focus:border-indigo-600 ring-1 ring-inset ring-gray-300 placeholder:text-gray-400 focus:ring-2 focus:ring-inset focus:ring-indigo-600 sm:text-sm sm:leading-6 border-[1px]"
                   />
                 </div>
                 <div className="col-lg-12 mb-3">
                   <label className="font-medium mb-2">Email</label>
                   <input
                     type="email"
-                    className="w-full p-2 rounded-md focus:border-indigo-600 ring-1 ring-inset ring-gray-300 placeholder:text-gray-400 focus:ring-2 focus:ring-inset focus:ring-indigo-600 sm:text-sm sm:leading-6 border-0"
+                    className="w-full p-2 rounded-md border-indigo-600 sm:border-0 focus:border-indigo-600 ring-1 ring-inset ring-gray-300 placeholder:text-gray-400 focus:ring-2 focus:ring-inset focus:ring-indigo-600 sm:text-sm sm:leading-6 border-[1px]"
                   />
                 </div>
                 <div className="col-lg-12 mb-3">
                   <label className="font-medium mb-2">Phone Number</label>
                   <input
                     type="text"
-                    className="w-full p-2 rounded-md focus:border-indigo-600 ring-1 ring-inset ring-gray-300 placeholder:text-gray-400 focus:ring-2 focus:ring-inset focus:ring-indigo-600 sm:text-sm sm:leading-6 border-0"
+                    className="w-full p-2 rounded-md border-indigo-600 sm:border-0 focus:border-indigo-600 ring-1 ring-inset ring-gray-300 placeholder:text-gray-400 focus:ring-2 focus:ring-inset focus:ring-indigo-600 sm:text-sm sm:leading-6 border-[1px]"
                   />
                 </div>
                 <div className="col-lg-12 mb-3">
                   <label className="font-medium mb-2">Message</label>
                   <textarea
-                    className="w-full p-1 rounded-md focus:border-indigo-600 ring-1 ring-inset ring-gray-300 placeholder:text-gray-400 focus:ring-2 focus:ring-inset focus:ring-indigo-600 sm:text-sm sm:leading-6 border-0"
+                    className="w-full p-1 rounded-md border-indigo-600 sm:border-0 focus:border-indigo-600 ring-1 ring-inset ring-gray-300 placeholder:text-gray-400 focus:ring-2 focus:ring-inset focus:ring-indigo-600 sm:text-sm sm:leading-6 border-[1px]"
                     rows={"4"}
                   ></textarea>
                 </div>

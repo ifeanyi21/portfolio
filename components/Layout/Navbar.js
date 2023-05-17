@@ -34,7 +34,10 @@ export default function Navigation() {
               </div>
               <div className="flex flex-1 items-center justify-center sm:items-stretch sm:justify-between">
                 <div className="flex flex-shrink-0 items-center">
-                  <Link className="font-bold text-2xl text-indigo-600 hover:text-indigo-900" href={"/"}>
+                  <Link
+                    className="font-bold text-2xl text-indigo-600 hover:text-indigo-900"
+                    href={"/"}
+                  >
                     Ifeanyi
                   </Link>
                 </div>
@@ -72,10 +75,9 @@ export default function Navigation() {
                   as="a"
                   href={item.href}
                   className={classNames(
-                    item.current
-                      ? "bg-gray-900 text-white"
-                      : "text-gray-300 hover:bg-gray-700 hover:text-white",
-                    "block rounded-md px-3 py-2 text-base font-medium"
+                    `text-gray-900 block rounded-md px-3 py-2 text-base font-medium ${
+                      item.name === "Contact" ? "bg-indigo-600 text-white" : ""
+                    }`
                   )}
                   aria-current={item.current ? "page" : undefined}
                 >
