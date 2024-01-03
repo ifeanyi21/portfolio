@@ -1,4 +1,5 @@
 import OutlinedCard from "@/components/Home/Services";
+import Technologies from "@/components/Technologies";
 import Services from "@/utils/Services";
 import Image from "next/image";
 
@@ -32,6 +33,16 @@ const skills = [
     id: 5,
     src: "/Images/react.png",
     name: "React",
+  },
+  {
+    id: 6,
+    src: "/Images/react.png",
+    name: "Nodejs",
+  },
+  {
+    id: 7,
+    src: "/Images/react.png",
+    name: "Express",
   },
 ];
 
@@ -113,22 +124,7 @@ export default function Home() {
             bring to the table:
           </p>
           <div className="row">
-            {skills.map((skill) => {
-              return (
-                <div className="col-md-2 col-sm-4 col-6 text-center" key={skill.id}>
-                  <Image
-                    src={skill.src}
-                    width={100}
-                    height={100}
-                    alt={skill.name}
-                    className="mx-auto mb-1 min-h-[100px] object-contain"
-                  />
-                  <p className="text-xl text-indigo-600 font-bold">
-                    {skill.name}
-                  </p>
-                </div>
-              );
-            })}
+            <Technologies />
           </div>
         </div>
       </div>

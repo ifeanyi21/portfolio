@@ -61,7 +61,13 @@ const About = () => {
           </div>
         </div>
         <div className="flex justify-center">
-          <button className="border-0 bg-indigo-800 text-white p-3 rounded-lg font-bold text-xl hover:bg-indigo-500">Download Resume</button>
+          <a
+            href="/Ifeanyichukwu Eze Dev.pdf"
+            className="border-0 bg-indigo-800 text-white p-3 rounded-lg font-bold text-xl hover:bg-indigo-500"
+            download
+          >
+            Download Resume
+          </a>
         </div>
       </div>
     </div>
