@@ -29,10 +29,10 @@ const Projects = () => {
         </div>
         {availableProjects.map((item) => {
           return (
-            <div className="col-md-6" key={item.id}>
+            <div className="col-md-6 mb-8" key={item.id}>
               <a href={item.url} target="_blank">
                 <Image
-                  className="w-full transition-transform hover:scale-105"
+                  className="w-full transition-transform hover:scale-105 rounded-md"
                   src={item.image}
                   alt={item.name}
                   width={200}
